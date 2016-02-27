@@ -131,6 +131,7 @@ nmap <silent> \`<Up> :wincmd k<CR>
 nmap <silent> \`<Down> :wincmd j<CR>
 nmap <silent> \`<Left> :wincmd h<CR>
 nmap <silent> \`<Right> :wincmd l<CR>
+nmap <F5> iimport sys <CR> inFile = sys.argv[1] <CR> with open(inFile,'r') as i: <CR> lines = i.readlines()<ESC>
 inoremap <Nul> <C-p>
 
 let g:ctrlp_follow_symlinks = 1
